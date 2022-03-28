@@ -1,3 +1,7 @@
+h1,h2,h3,h4,p,.botNavegacion,.button{
+    font-family: 'Montserrat', sans-serif;
+ }
+
 body{
     background-color: rgb(66,126,128);
 }
@@ -17,7 +21,7 @@ body{
     width: 108px;
     height: 38px;
     font-size: 16px;
-    box-shadow: 2px 3px #154454;
+    box-shadow: 0px 1px #154454;
     border-radius: 10px;
     padding: 10px;
     text-decoration: none;
@@ -35,9 +39,9 @@ header{
     margin-right: -10px
 }
 
+
 h1,h2{
     color: white;
-    font-family: 'Montserrat', sans-serif;
 }
 
 h1{
@@ -50,4 +54,41 @@ h2{
     text-shadow: 2px 2px #154454;
     font-size: 40px;
     text-align: center;
+}
+
+#personas{
+    width: 100%;
+}
+article{
+   
+    background-color: white ;
+    margin-left:200px ;
+    margin-right: 200px;
+}
+
+#juego{
+    width: 100%;
+}
+section{
+    background-color: rgb(240,245,228);
+}
+
+main{
+    display:inline-flex 
+}
+
+.tarjeta{
+    margin-top: 100px;
+    border: 5px solid rgb(21,68,84);
+    height: 400px;
+    width: 350px;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #1d1d1d;
+    height: 80px;
+    color: white;
+    padding: 0px 40px;
+    margin-bottom: 10px;
 }
