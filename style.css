@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(66,126,128);
+}
+
+#contBoton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#botJuego{
+    margin-right: 60px;
+    margin-left:45px
+}
+
+.botNavegacion{
+    margin-top: 15px;
+    width: 108px;
+    height: 38px;
+    font-size: 16px;
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/imagenes/codigo.jpeg) 50% 0 fixed;
+    background-size: cover;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+h1,h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 55px;
+    background-color: #2D2D2D;
+    text-shadow: 4px 4px black;
+}
+
+h2{
+    text-shadow: 2px 2px #154454;
+    font-size: 40px;
+    text-align: center;
+}
