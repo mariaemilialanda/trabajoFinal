@@ -12,6 +12,7 @@ body{
 }
 
 #botJuego{
+    margin-top: 20px;
     margin-right: 60px;
     margin-left:45px
 }
@@ -79,13 +80,14 @@ main{
 
 .tarjeta{
     margin-top: 100px;
+    margin-bottom: 200px;
     border: 5px solid rgb(21,68,84);
     height: 420px;
     width: 380px;
     font-size: 14px;
 }
 
-.tarjeta,.irA{
+.tarjeta,.irA,#pieDePagina{
     font-size: 14px;
 }
 
@@ -117,7 +119,7 @@ main{
     margin-top: 20px;
 }
 
-#botJuego{
+#botJuego2{
     margin-top: 55px;
     margin-left: 110px;
 }
@@ -127,4 +129,18 @@ footer{
     height: 80px;
     color: white;
     padding: 0px 40px;
+}
+
+#pieDePagina{
+    margin-left: 150px;
+ 
+}
+
+br{
+   text-align: center;
+}
+
+p{
+    margin-left: 850px;
+    margin-top: -30px;
 }
