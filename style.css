@@ -80,9 +80,46 @@ main{
 .tarjeta{
     margin-top: 100px;
     border: 5px solid rgb(21,68,84);
-    height: 400px;
-    width: 350px;
+    height: 420px;
+    width: 380px;
     font-size: 14px;
+}
+
+.tarjeta,.irA{
+    font-size: 14px;
+}
+
+.tituloTarjeta{
+    text-align: center;
+    text-indent: 0.5em;
+    margin-right: 15px;
+}
+
+#tituloHistoria{
+    margin-top: 40px;
+}
+#tituloJuego{
+    margin-top: 50px
+}
+
+.irA{
+    width: 150px;
+    box-shadow: 0px 1px #154454;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color:rgb(66,126,128);
+    color: white;
+    margin-left: 110px;
+}
+
+#botHistoria{
+    margin-top: 20px;
+}
+
+#botJuego{
+    margin-top: 55px;
+    margin-left: 110px;
 }
 
 footer{
@@ -90,5 +127,4 @@ footer{
     height: 80px;
     color: white;
     padding: 0px 40px;
-    margin-bottom: 10px;
 }
