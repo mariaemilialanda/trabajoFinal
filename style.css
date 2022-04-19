@@ -40,7 +40,6 @@ header{
     margin-right: -10px
 }
 
-
 h1,h2{
     color: white;
 }
@@ -54,7 +53,10 @@ h1{
 h2{
     text-shadow: 2px 2px #154454;
     font-size: 40px;
-    text-align: center;
+}
+
+#contenido{
+    text-align: center; 
 }
 
 #personas{
@@ -74,7 +76,7 @@ section{
     background-color: rgb(240,245,228);
 }
 
-main{
+#main1{
     display:inline-flex 
 }
 
@@ -140,7 +142,24 @@ br{
    text-align: center;
 }
 
-p{
+#objetivo{
     margin-left: 850px;
     margin-top: -30px;
 }
+
+/*---ESTILOS EXCLUSIVOS DE INDEX2*/
+
+#tituloHistoria1{
+    display: inline-block;
+    font-size: 35px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+#textoH1{
+    display: inline-block;
+    width: 40%;
+}
+
