@@ -148,51 +148,49 @@ br{
 }
 
 /*---ESTILOS EXCLUSIVOS DE INDEX2*/
-#tituloHistoria1,#tituloHistoria2{
-    font-size: 39px;
-}
-#tituloHistoria1,#textoH1{
-    display: inline-block;
+#span1, #span2,#span3{
+    display: inline-flex;
 }
 #tituloHistoria1{
-    margin-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 210px;
+    margin-left: 130px;
+    margin-right: 120px;
     text-align: center;
-}
-#tituloHistoria1,#textoH2{
-    margin-inline-start: 140px;
-    margin-inline-end: 80px;
+    font-size: 39px;
+   
 }
 
-#textoH1 {
-   width: 35%;
-}
-
-#tituloHistoria2,#textoH2{
-    display: inline-block;
+#textoH1{
+    width: 35%;
+    margin-top: 180px;
 }
 
 #textoH2{
-    width: 40%;
-    margin-top: 160px;
-    margin-bottom: 50px;
+    width: 41%;
+    margin-top: 175px;
+    margin-left: 105px;
+    margin-right: 100px;
 }
 
-#tituloHistoria3,#textoH3{
-    display: inline-block;
-}    
+#tituloHistoria2{
+    margin-top: 240px;
+}
 
 #tituloHistoria3{
-    width: 20%;
-    margin-inline-start: 50px;
-    margin-inline-end: 20px;
+    margin-top: 260px;
+    text-align: center;
+    width:30% 
 }
 
-#textoH3,.texto{
- width: 60%;
+#textoH3{
+    margin-top: 185px;
 }
 
-.texto{
-    margin-left: 337px;
-    margin-top: -100 px;
+.texto, #textoH3{
+    width:60%  
+}
+
+#span4{
+    margin-left: 300px;
+   margin-top: 150px;
 }
