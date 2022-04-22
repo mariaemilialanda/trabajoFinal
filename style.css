@@ -1,9 +1,7 @@
-h1,h2,h3,h4,p,.botNavegacion,.button{
-    font-family: 'Montserrat', sans-serif;
- }
 
 body{
     background-color: rgb(66,126,128);
+    font-family: 'Montserrat', sans-serif;
 }
 
 #contBoton{
@@ -184,13 +182,30 @@ br{
 
 #textoH3{
     margin-top: 185px;
+    margin-left:-40px;
 }
 
 .texto, #textoH3{
     width:60%  
 }
 
-#span4{
-    margin-left: 300px;
-   margin-top: 150px;
+.texto{
+  margin-left: 360px;
 }
+
+#span4{
+    position: relative;
+    bottom: 170px;
+ }
+ /*---ESTILOS EXCLUSIVOS DE INDEX2*/
+ 
+ .cuadroDeArrastre{
+    width: 275px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+
+}
+ 
