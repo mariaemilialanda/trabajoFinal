@@ -1,10 +1,70 @@
+@keyframes monitor {
+    0% { 
+    transform: translate(0,-10px);
+    opacity: 0;
+       } 
+    20%{
+    transform: translate(0,-10px);
+    opacity: 0;
+       }
+    30%{
+    transform: translate(0,0);
+    opacity: 1;
+       }
+    90%{
+    transform: translate(0,0);
+    opacity: 1;
+        }
+    100%{
+    transform: translate(0,0);
+    opacity: 1;
+        }
+}
+@keyframes teclado {
+     0%{ 
+    transform: translate(0,-10px);
+    opacity: 0;
+       } 
+    30%{
+    transform: translate(0,-10px);
+    opacity: 0;
+       }
+    40%{
+    transform: translate(0,0);
+    opacity: 1;
+       }
+    90%{
+    transform: translate(0,0);
+    opacity: 1;
+       }
+    100%{
+    transform: translate(0,0);
+    opacity: 1;
+        }
+}
+#recuadroAzul1, #recuadroCeleste1{
+    animation: monitor ease-in 5s;
+    animation-iteration-count: 1
+}
+
+#recuadroAzul2, #recuadroCeleste2{
+       animation: teclado ease-in 5s;
+       animation-iteration-count: 1;
+}
 
 body{
-    background-color: rgb(66,126,128);
     font-family: 'Montserrat', sans-serif;
+}
+body, .irA{
+    background-color: rgb(66,126,128);
+}
+
+#contenido,.tituloTarjeta,br,#tituloHistoria1,#tituloHistoria3,.cuadroDeArrastre, #tituloVideo{ 
+    text-align: center;
 }
 
 #contBoton{
+    margin-top: -150px;
     display: flex;
     justify-content: flex-end;
 }
@@ -38,7 +98,7 @@ header{
     margin-right: -10px
 }
 
-h1,h2{
+h1,h2, .irA,footer{
     color: white;
 }
 
@@ -53,23 +113,16 @@ h2{
     font-size: 40px;
 }
 
-#contenido{
-    text-align: center; 
-}
-
-#personas{
+#personas, #juego{
     width: 100%;
 }
+
 article{
-   
-    background-color: white ;
     margin-left:200px ;
     margin-right: 200px;
+    background-color: white
 }
 
-#juego{
-    width: 100%;
-}
 section{
     background-color: rgb(240,245,228);
 }
@@ -84,7 +137,6 @@ section{
     border: 5px solid rgb(21,68,84);
     height: 420px;
     width: 380px;
-    font-size: 14px;
 }
 
 .tarjeta,.irA,#pieDePagina{
@@ -92,7 +144,6 @@ section{
 }
 
 .tituloTarjeta{
-    text-align: center;
     text-indent: 0.5em;
     margin-right: 15px;
 }
@@ -110,8 +161,6 @@ section{
     border-radius: 10px;
     padding: 10px;
     text-decoration: none;
-    background-color:rgb(66,126,128);
-    color: white;
     margin-left: 110px;
 }
 
@@ -127,22 +176,21 @@ section{
 footer{
     background-color: #1d1d1d;
     height: 80px;
-    color: white;
     padding: 0px 40px;
 }
 
-#pieDePagina{
-    margin-left: 150px;
- 
+#logo2{
+    margin-top: 10px;
 }
 
-br{
-   text-align: center;
+#pieDePagina{
+    margin-top: -140px;
+    margin-left: 200px;
 }
 
 #objetivo{
     margin-left: 850px;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 /*---ESTILOS EXCLUSIVOS DE INDEX2*/
@@ -153,9 +201,7 @@ br{
     margin-top: 210px;
     margin-left: 130px;
     margin-right: 120px;
-    text-align: center;
-    font-size: 39px;
-   
+    font-size: 39px;  
 }
 
 #textoH1{
@@ -176,7 +222,6 @@ br{
 
 #tituloHistoria3{
     margin-top: 260px;
-    text-align: center;
     width:30% 
 }
 
@@ -197,7 +242,18 @@ br{
     position: relative;
     bottom: 170px;
  }
- /*---ESTILOS EXCLUSIVOS DE INDEX2*/
+
+ #tituloVideo{
+   margin-top: 150px;
+ }
+
+ video{
+     margin-left: 150px;
+     margin-bottom: 250px;
+     width: 1050px; 
+     height: 1400x;
+}
+ /*---ESTILOS EXCLUSIVOS DE INDEX3*/
  
  .cuadroDeArrastre{
     width: 275px;
@@ -205,7 +261,6 @@ br{
     display: inline-block;
     border: 2px solid black;
     background-color: grey;
-    text-align: center;
-
 }
+
  
