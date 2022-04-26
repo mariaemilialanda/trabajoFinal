@@ -5,39 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto-Final</title>
+    <link rel="shortcut icon" href="./imagenes/logo.svg">
     <link  rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <nav id="contBoton">
-        <a href="./index2.html">
-           <button type="button" id="botHistoria" class="botNavegacion">HISTORIA</button>
-        </a>
-        <a href="./index3.html">
-           <button type="button" id="botJuego" class="botNavegacion">JUGUEMOS</button>
-        </a>
-    </nav>
+    <a href="./index.html">
+        <svg id="log1">
+           <rect x="45" y="5" width="60" height="35" rx="5" id="recuadroAzul1" fill="#3F6797"></rect>
+           <rect x="50" y="10" width="50" height="25" rx="5" id="recuadroCeleste1" fill="#B1D5E4"></rect>
+           <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="recuadroAzul2"></polygon>
+           <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="recuadroCeleste2"></polygon>
+        </svg>
+     </a>
+     <nav id="contBoton">
+         <a href="./index2.html">
+            <button type="button" id="botHistoria" class="botNavegacion">HISTORIA</button>
+         </a>
+         <a href="./index3.html">
+            <button type="button" id="botJuego" class="botNavegacion">JUGUEMOS</button>
+         </a>
+     </nav>
     <header>
         <h1>JUGUEMOS UN POCO</h1>
     </header>
     <main>
-        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
-        <div class="cuadroDeArrastre" id="cuadro1">
-            <p>Arrastre y suelte la imágene aquí</p>
-        </div>
-        <div class="cuadroDeArrastre" id="cuadro1">
-            <p>Arrastre y suelte la imágene aquí</p>
-        </div>
-        <div class="cuadroDeArrastre" id="cuadro1">
-            <p>Arrastre y suelte la imágene aquí</p>
-        </div>
-
-    </main>
-       
-    </main>  
-    <footer>
-        <h4 id="pieDePagina">PROGRAMACION <br>E</br> HISTORIA</h4>
-        <p id="objetivo">Sitio con fines educativos-Creado por M. Victoria Lopez</p>
-    </footer>
-    <script href="./trabajoFinal.js"></script>
+        <h2 id="tituloJuego">Armemos el rompecabezas y veamos que imagen es...</h2>
+        <section>
+         <div class="cajas">
+           <div class="cuadroDeArrastre" id="cuadro1">
+               <p>Arrastre y suelte la imágene aquí</p>
+           </div>
+           <div class="cuadroDeArrastre" id="cuadro2">
+               <p>Arrastre y suelte la imágene aquí</p>
+           </div>
+           <div class="cuadroDeArrastre" id="cuadro3">
+               <p>Arrastre y suelte la imágene aquí</p>
+           </div>
+         </div>
+         <div id="cuadroImagenes">
+            <img id="imagen1" src="./imagenes/rompe2.png" alt="imagen juego">
+            <img id="imagen2" src="./imagenes/Rompe1.png" alt="imagen juego">
+            <img id="imagen3" src="./imagenes/Rompe3.png" alt="imagen juego">
+         </div>
+        </section>
+        <button onclick="reiniciar ()" id="botReinicio">Reiniciar</button>
+ 
+    </main> 
+    <script href="./scriptJuego.js"></script>
 </body>
 </html>

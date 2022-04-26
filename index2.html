@@ -83,13 +83,23 @@
             llegar al os lenguajes de hoy en dia.
          </p> 
        </span>
-       <h2 id="tituloVideo">Un breve video para complementar lo visto</h2>
-       <video src="./video/historia-Comp.mp4" poster="./imagenes/img-video.jpg"></video>
-    </main>  
+       <section class="audiovisual">
+         <h2 id="tituloVideo">Un breve video para complementar lo visto</h2>
+         <div class="cajaVideo">
+            <video src="./video/historia-Comp.mp4" width="100%" poster="./imagenes/img-video.jpg" alt="Video"></video>
+            <div id="botonesPlay">
+               <button  id="darPlay" class="botVideo"><img src="./imagenes/play.svg" alt="Play"></button>
+               <button id="pausa" class="botVideo"><img src="./imagenes/pausa.svg" alt="Pausa"></button> 
+            </div>
+         </div>
+       </section>
+    </main>
     <footer>
-        <h4 id="pieDePagina">PROGRAMACION <br>E</br> HISTORIA</h4>
-        <p>Sitio con fines educativos-Creado por M. Victoria Lopez</p>
-    </footer>
-    <script href="./trabajoFinal.js"></script>
+      <img src="imagenes/logo.svg" id="logo2"> 
+      <h4 id="pieDePagina">PROGRAMACION <br>E</br> HISTORIA</h4>
+      <p id="objetivo">Sitio con fines educativos-Creado por M. Victoria Lopez</p>
+  </footer> 
+
+  <script href="./scriptHis.js"></script>
 </body>
 </html>

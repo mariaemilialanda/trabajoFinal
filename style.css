@@ -59,7 +59,7 @@ body, .irA{
     background-color: rgb(66,126,128);
 }
 
-#contenido,.tituloTarjeta,br,#tituloHistoria1,#tituloHistoria3,.cuadroDeArrastre, #tituloVideo{ 
+#contenido,.tituloTarjeta,br,#tituloHistoria1,#tituloHistoria3,.cuadroDeArrastre, #tituloVideo, #tituloJuego{ 
     text-align: center;
 }
 
@@ -123,15 +123,12 @@ article{
     background-color: white
 }
 
-section{
-    background-color: rgb(240,245,228);
-}
-
 #main1{
     display:inline-flex 
 }
 
 .tarjeta{
+    background-color: rgb(240,245,228);
     margin-top: 100px;
     margin-bottom: 200px;
     border: 5px solid rgb(21,68,84);
@@ -243,16 +240,41 @@ footer{
     bottom: 170px;
  }
 
- #tituloVideo{
+ #tituloVideo, #tituloJuego{
    margin-top: 150px;
  }
 
- video{
-     margin-left: 150px;
-     margin-bottom: 250px;
-     width: 1050px; 
-     height: 1400x;
+.cajaVideo{
+    margin-left: 200px;
+    margin-bottom: 80px;
+    padding: 5px; 
+    background-color: black;
+    width: 70%
+    
 }
+#botonesPlay{
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    padding: 2px 5px;
+    height: 45px;
+    display: flex;
+}
+
+.botVideo{
+    width: 70px;
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #F0F5E4;
+    color: #154454;
+    font-weight: 300;
+}
+
+#logo2{
+    width: 70px;
+}
+
  /*---ESTILOS EXCLUSIVOS DE INDEX3*/
  
  .cuadroDeArrastre{
@@ -263,4 +285,27 @@ footer{
     background-color: grey;
 }
 
- 
+#cuadro1{
+    margin-left: 250px;
+}
+
+#cuadro1, #cuadro2{
+    margin-right: -5px;
+}
+
+#cuadroImagenes{
+    margin-left: 200px;
+}
+
+#imagen1, #imagen2, #imagen3{
+    margin-top: 50px;
+    margin-left:20px ;
+}
+
+#botReinicio {
+    margin-top:80px ;
+    margin-left:550px;
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+
